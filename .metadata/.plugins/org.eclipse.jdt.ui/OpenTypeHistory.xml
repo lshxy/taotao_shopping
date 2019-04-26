@@ -2,4 +2,7 @@
 <typeInfoHistroy>
 <typeInfo handle="=taotao-manager-interface/src\/main\/java&lt;com.taotao.service{TestService.java[TestService" modifiers="513" timestamp="1556197595115"/>
 <typeInfo handle="=taotao-manager-service/C:\/Users\/10205\/.m2\/repository\/junit\/junit\/4.12\/junit-4.12.jar&lt;org.junit.rules(TestRule.class[TestRule" modifiers="1537" timestamp="1463389957000"/>
+<typeInfo handle="=taotao-common/D:\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1556069351520"/>
+<typeInfo handle="=taotao-manager-interface/src\/main\/java&lt;com.taotao.service{ItemService.java[ItemService" modifiers="513" timestamp="1556246801031"/>
+<typeInfo handle="=taotao-manager-service/D:\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xerces.internal.xs(ItemPSVI.class[ItemPSVI" modifiers="1537" timestamp="1556069351520"/>
 </typeInfoHistroy>

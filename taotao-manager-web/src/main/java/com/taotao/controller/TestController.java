@@ -17,7 +17,7 @@ public class TestController {
 	@Autowired
 	private TestService testservice;
 	
-	@RequestMapping("/test/qureyNow")
+	@RequestMapping("/test/queryNow")
 	@ResponseBody
 	public String queryNow(){
 		//1.引入服务
