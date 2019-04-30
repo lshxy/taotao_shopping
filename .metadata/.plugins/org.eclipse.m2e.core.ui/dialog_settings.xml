@@ -48,10 +48,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="groupId">
+			<item value="com.taotao"/>
 		</list>
 		<list key="package">
+			<item value="org.taotao.content.service"/>
 		</list>
 		<list key="artifactId">
+			<item value="taotao-content-service"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -65,9 +68,14 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
-	<section name="MavenProjectImportWizardPage">
-		<list key="rootDirectory">
-			<item value="F:\Java_soft\mybatis\pagehelper-fix\pagehelper"/>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="taotao-content-service"/>
+			<item value="taotao-content-interface"/>
+			<item value="taotao-manager-service"/>
+			<item value="taotao-manager-interface"/>
+			<item value="taotao-manager-pojo"/>
+			<item value="taotao-manager-dao"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -78,12 +86,10 @@
 			<item value="[name]"/>
 		</list>
 	</section>
-	<section name="MavenModuleWizardParentPage">
-		<list key="moduleName">
-			<item value="taotao-manager-service"/>
-			<item value="taotao-manager-interface"/>
-			<item value="taotao-manager-pojo"/>
-			<item value="taotao-manager-dao"/>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\Java后端\RPC设计\ares-remoting-master\ares-remoting-master"/>
+			<item value="F:\Java_soft\mybatis\pagehelper-fix\pagehelper"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -101,8 +107,12 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="taotao-manager-web"/>
+			<item value="taotao-content-service"/>
+			<item value="taotao-content"/>
+			<item value="taotao-content-interface"/>
 			<item value="taotao-parent"/>
+			<item value="taotao-portal-web"/>
+			<item value="taotao-manager-web"/>
 			<item value="taotao-manager-service"/>
 			<item value="taotao-manager"/>
 		</list>

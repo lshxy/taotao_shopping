@@ -1,0 +1,29 @@
+package duxiaoman;
+
+public class Solution {
+	public static void shellSort(int[] data){
+        if(data==null || data.length<=1)
+            return;
+        for(int d=3; d>0; d=d/2){
+            for(int i=d;i<data.length;i++){
+                int cur = i;
+                int temp = data[i];
+                while(cur>=d && data[cur-d]>temp){
+                    data[cur] = data[cur-d];
+                    cur = cur - d;
+                }
+                data[cur] = temp;
+            }
+        }
+    }
+    public static void main(String[] args) {
+    	int[] data = {58,23,4,57,89,18,25,78,32,93};
+        shellSort(data);
+        System.out.print("Êý×éÏ£¶ûÅÅÐò£º\t");
+        for(int item: data){
+            System.out.print(item);
+            System.out.print('\t');
+        }
+        System.out.println();
+	}
+}

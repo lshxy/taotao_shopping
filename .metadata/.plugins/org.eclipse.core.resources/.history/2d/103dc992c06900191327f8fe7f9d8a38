@@ -1,0 +1,26 @@
+package duxiaoman;
+
+public class Solution {
+	public static void shellSort(int[] data){
+        if(data==null || data.length<=1)
+            return;
+        for(int d=3; d>0; d=d/2){
+            for(int i=d;i<data.length;i++){
+                int cur = i;
+                int temp = data[i];
+                while(cur>=d && data[cur-d]>temp){
+                    data[cur] = data[cur-d];
+                    cur = cur - d;
+                }
+                data[cur] = temp;
+            }
+        }
+    }
+    public static void main(String[] args) {
+    	String string="xxxxxxxxxxxxxxxxxxxxxxx#123#456#zzzzz";
+    	int n=string.indexOf("#");
+    	int k=string.indexOf("#",n+1);
+    	String string2=string.substring(n+2,k);
+    	System.out.println(string2);
+	}
+}
