@@ -5,4 +5,5 @@
 <typeInfo handle="=taotao-common/D:\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1556069351520"/>
 <typeInfo handle="=taotao-manager-interface/src\/main\/java&lt;com.taotao.service{ItemService.java[ItemService" modifiers="513" timestamp="1556247686781"/>
 <typeInfo handle="=taotao-manager-service/D:\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;com.sun.org.apache.xerces.internal.xs(ItemPSVI.class[ItemPSVI" modifiers="1537" timestamp="1556069351520"/>
+<typeInfo handle="=generatorSqlmapCustom/D:\/jdk1.7.0_80\/jre\/lib\/rt.jar&lt;java.util(ArrayList.class[ArrayList" modifiers="33" timestamp="1556069351520"/>
 </typeInfoHistroy>
