@@ -66,20 +66,6 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
-	<section name="MavenProjectImportWizardPage">
-		<list key="rootDirectory">
-			<item value="F:\Java后端\RPC设计\ares-remoting-master\ares-remoting-master"/>
-			<item value="F:\Java_soft\mybatis\pagehelper-fix\pagehelper"/>
-		</list>
-		<list key="projectNameTemplate">
-			<item value="[artifactId]"/>
-			<item value="[artifactId]-TRUNK"/>
-			<item value="[artifactId]-[version]"/>
-			<item value="[groupId].[artifactId]"/>
-			<item value="[groupId].[artifactId]-[version]"/>
-			<item value="[name]"/>
-		</list>
-	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
 			<item value="taotao-search-service"/>
@@ -90,6 +76,20 @@
 			<item value="taotao-manager-interface"/>
 			<item value="taotao-manager-pojo"/>
 			<item value="taotao-manager-dao"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\Java后端\RPC设计\ares-remoting-master\ares-remoting-master"/>
+			<item value="F:\Java_soft\mybatis\pagehelper-fix\pagehelper"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
